@@ -1,9 +1,5 @@
 # MtasaLua
 
-![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)
-![Version (including pre-releases)](https://img.shields.io/visual-studio-marketplace/v/sumneko.lua)
-![Installs](https://img.shields.io/visual-studio-marketplace/i/sumneko.lua)
-![Downloads](https://img.shields.io/visual-studio-marketplace/d/sumneko.lua)
 
 ## Description
 
