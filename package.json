@@ -153,7 +153,11 @@
 					"type": "boolean"
 				},
 				"Lua.diagnostics.disable": {
-					"default": [],
+					"default": [
+						"lowercase-global",
+						"Deprecated",
+						"deprecated"
+					],
 					"items": {
 						"enum": [
 							"action-after-return",
@@ -171,7 +175,6 @@
 							"code-after-break",
 							"codestyle-check",
 							"count-down-loop",
-							"deprecated",
 							"different-requires",
 							"discard-returns",
 							"doc-field-no-class",
@@ -312,7 +315,9 @@
 					"type": "boolean"
 				},
 				"Lua.diagnostics.globals": {
-					"default": [],
+					"default": [
+						"yourGlobalVarName"
+					],
 					"items": {
 						"type": "string"
 					},
@@ -802,19 +807,6 @@
 						"count-down-loop": {
 							"default": "Any",
 							"description": "%config.diagnostics.count-down-loop%",
-							"enum": [
-								"Any",
-								"Opened",
-								"None",
-								"Any!",
-								"Opened!",
-								"None!"
-							],
-							"type": "string"
-						},
-						"deprecated": {
-							"default": "Any",
-							"description": "%config.diagnostics.deprecated%",
 							"enum": [
 								"Any",
 								"Opened",
@@ -1635,21 +1627,6 @@
 						"count-down-loop": {
 							"default": "Warning",
 							"description": "%config.diagnostics.count-down-loop%",
-							"enum": [
-								"Error",
-								"Warning",
-								"Information",
-								"Hint",
-								"Error!",
-								"Warning!",
-								"Information!",
-								"Hint!"
-							],
-							"type": "string"
-						},
-						"deprecated": {
-							"default": "Warning",
-							"description": "%config.diagnostics.deprecated%",
 							"enum": [
 								"Error",
 								"Warning",
@@ -2899,7 +2876,7 @@
 						},
 						"client": {
 							"default": "default",
-							"description": "%config.runtime.builtin.mtasa%",
+							"description": "%config.runtime.builtin.client",
 							"enum": [
 								"default",
 								"enable",
@@ -2909,7 +2886,7 @@
 						},
 						"deprecated": {
 							"default": "default",
-							"description": "%config.runtime.builtin.deprecated%",
+							"description": "%config.runtime.builtin.deprecated",
 							"enum": [
 								"default",
 								"enable",
@@ -2919,7 +2896,7 @@
 						},
 						"dx": {
 							"default": "default",
-							"description": "%config.runtime.builtin.dx%",
+							"description": "%config.runtime.builtin.dx",
 							"enum": [
 								"default",
 								"enable",
@@ -2929,7 +2906,7 @@
 						},
 						"engine": {
 							"default": "default",
-							"description": "%config.runtime.builtin.engine%",
+							"description": "%config.runtime.builtin.engine",
 							"enum": [
 								"default",
 								"enable",
@@ -2939,7 +2916,7 @@
 						},
 						"gui": {
 							"default": "default",
-							"description": "%config.runtime.builtin.gui%",
+							"description": "%config.runtime.builtin.gui",
 							"enum": [
 								"default",
 								"enable",
@@ -2949,7 +2926,7 @@
 						},
 						"ped": {
 							"default": "default",
-							"description": "%config.runtime.builtin.ped%",
+							"description": "%config.runtime.builtin.ped",
 							"enum": [
 								"default",
 								"enable",
@@ -2959,7 +2936,7 @@
 						},
 						"server": {
 							"default": "default",
-							"description": "%config.runtime.builtin.server%",
+							"description": "%config.runtime.builtin.server",
 							"enum": [
 								"default",
 								"enable",
@@ -2969,7 +2946,7 @@
 						},
 						"shared": {
 							"default": "default",
-							"description": "%config.runtime.builtin.shared%",
+							"description": "%config.runtime.builtin.shared",
 							"enum": [
 								"default",
 								"enable",
@@ -2979,7 +2956,17 @@
 						},
 						"vehicle": {
 							"default": "default",
-							"description": "%config.runtime.builtin.vehicle%",
+							"description": "%config.runtime.builtin.vehicle",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"typesmtasa": {
+							"default": "default",
+							"description": "%config.runtime.builtin.typesmtasa",
 							"enum": [
 								"default",
 								"enable",
@@ -3496,5 +3483,5 @@
 	"sponsor": {
 		"url": "https://github.com/LuaLS/lua-language-server/issues/484"
 	},
-	"version": "0.1"
+	"version": "0.0.4"
 }
