@@ -3478,10 +3478,7 @@
 	"publisher": "imjoaosilva",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/LuaLS/lua-language-server"
-	},
-	"sponsor": {
-		"url": "https://github.com/LuaLS/lua-language-server/issues/484"
+		"url": "https://github.com/imjoaosilva/lua-language-server"
 	},
 	"version": "0.0.4"
 }
