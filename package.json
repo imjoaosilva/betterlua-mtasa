@@ -2896,6 +2896,96 @@
 								"disable"
 							],
 							"type": "string"
+						},
+						"client": {
+							"default": "default",
+							"description": "%config.runtime.builtin.mtasa%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"deprecated": {
+							"default": "default",
+							"description": "%config.runtime.builtin.deprecated%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"dx": {
+							"default": "default",
+							"description": "%config.runtime.builtin.dx%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"engine": {
+							"default": "default",
+							"description": "%config.runtime.builtin.engine%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"gui": {
+							"default": "default",
+							"description": "%config.runtime.builtin.gui%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"ped": {
+							"default": "default",
+							"description": "%config.runtime.builtin.ped%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"server": {	
+							"default": "default",
+							"description": "%config.runtime.builtin.server%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"shared": {
+							"default": "default",
+							"description": "%config.runtime.builtin.shared%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"vehicle": {
+							"default": "default",
+							"description": "%config.runtime.builtin.vehicle%",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
 						}
 					},
 					"scope": "resource",
@@ -3384,8 +3474,8 @@
 			}
 		]
 	},
-	"description": "Lua Language Server coded by Lua",
-	"displayName": "Lua",
+	"description": "Lua Language Server",
+	"displayName": "Better Lua Mtasa",
 	"engines": {
 		"vscode": "^1.86.0"
 	},
@@ -3397,8 +3487,8 @@
 	],
 	"license": "MIT",
 	"main": "./client/out/src/extension",
-	"name": "lua",
-	"publisher": "sumneko",
+	"name": "luamtasa",
+	"publisher": "imjoaosilva",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/LuaLS/lua-language-server"
@@ -3406,5 +3496,5 @@
 	"sponsor": {
 		"url": "https://github.com/LuaLS/lua-language-server/issues/484"
 	},
-	"version": "3.11.0"
+	"version": "0.0.2"
 }
