@@ -2957,7 +2957,7 @@
 							],
 							"type": "string"
 						},
-						"server": {	
+						"server": {
 							"default": "default",
 							"description": "%config.runtime.builtin.server%",
 							"enum": [
@@ -3496,5 +3496,5 @@
 	"sponsor": {
 		"url": "https://github.com/LuaLS/lua-language-server/issues/484"
 	},
-	"version": "0.0.2"
+	"version": "0.1"
 }
