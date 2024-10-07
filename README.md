@@ -1,7 +1,7 @@
 # Better Lua MTA:SA
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/imjoaosilva/vscode-lua/master/images/logo.png" width="200">
+    <img src="https://raw.githubusercontent.com/imjoaosilva/betterlua-mtasa/master/images/logo.png" width="200">
 </div>
 
 A Visual Studio Code extension that enhances the Lua development experience for Multi Theft Auto (MTA) by adding full support for MTA-specific functions and events, and enabling the use of global tables across different files.
@@ -10,10 +10,10 @@ A Visual Studio Code extension that enhances the Lua development experience for 
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/imjoaosilva.luamtasa.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=imjoaosilva.luamtasa)
 ## Repository Statistics
 
-[![Stars](https://img.shields.io/github/stars/imjoaosilva/vscode-lua?style=for-the-badge)](https://github.com/imjoaosilva/vscode-lua/stargazers)
-[![Forks](https://img.shields.io/github/forks/imjoaosilva/vscode-lua?style=for-the-badge)](https://github.com/imjoaosilva/vscode-lua/network/members)
-[![Open Issues](https://img.shields.io/github/issues/imjoaosilva/vscode-lua?style=for-the-badge)](https://github.com/imjoaosilva/vscode-lua/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/imjoaosilva/vscode-lua?style=for-the-badge)](https://github.com/imjoaosilva/vscode-lua/pulls)
+[![Stars](https://img.shields.io/github/stars/imjoaosilva/betterlua-mtasa?style=for-the-badge)](https://github.com/imjoaosilva/betterlua-mtasa/stargazers)
+[![Forks](https://img.shields.io/github/forks/imjoaosilva/betterlua-mtasa?style=for-the-badge)](https://github.com/imjoaosilva/betterlua-mtasa/network/members)
+[![Open Issues](https://img.shields.io/github/issues/imjoaosilva/betterlua-mtasa?style=for-the-badge)](https://github.com/imjoaosilva/betterlua-mtasa/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/imjoaosilva/betterlua-mtasa?style=for-the-badge)](https://github.com/imjoaosilva/betterlua-mtasa/pulls)
 
 ## Installation
 
