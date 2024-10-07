@@ -1,40 +1,35 @@
-# MtasaLua
+# Better Lua MTA:SA
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/imjoaosilva/vscode-lua/master/images/logo.png" width="200">
+</div>
 
-## Description
+A Visual Studio Code extension that enhances the Lua development experience for Multi Theft Auto (MTA) by adding full support for MTA-specific functions and events, and enabling the use of global tables across different files.
 
-This project is an extension of the [Lua Language Server](https://luals.github.io), which provides various features to facilitate development in Lua. I used their project as a base and added support for MTA (Multi Theft Auto) typing.
+[![Version](https://img.shields.io/visual-studio-marketplace/v/imjoaosilva.luamtasa.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=imjoaosilva.luamtasa)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/imjoaosilva.luamtasa.svg?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=imjoaosilva.luamtasa)
+## Repository Statistics
 
-## Features
-
-- Support for `Lua 5.4`, `Lua 5.3`, `Lua 5.2`, `Lua 5.1`, and `LuaJIT`
-- Annotations for documenting your code
-- Dynamic type checking
-- Diagnostics and warnings
-- Element renaming
-- Autocompletion
-- Code formatting
+[![Stars](https://img.shields.io/github/stars/imjoaosilva/vscode-lua?style=for-the-badge)](https://github.com/imjoaosilva/vscode-lua/stargazers)
+[![Forks](https://img.shields.io/github/forks/imjoaosilva/vscode-lua?style=for-the-badge)](https://github.com/imjoaosilva/vscode-lua/network/members)
+[![Open Issues](https://img.shields.io/github/issues/imjoaosilva/vscode-lua?style=for-the-badge)](https://github.com/imjoaosilva/vscode-lua/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/imjoaosilva/vscode-lua?style=for-the-badge)](https://github.com/imjoaosilva/vscode-lua/pulls)
 
 ## Installation
 
-Follow the installation instructions available on the [official Lua Language Server documentation](https://luals.github.io/#install).
+To install **Better Lua MTA:SA**, follow these steps:
 
-## Credits
+1. Open Visual Studio Code.
+2. Navigate to the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or pressing `Ctrl+Shift+X`.
+3. In the search bar, type **Better Lua MTA:SA**.
+4. Click on the extension and then click the **Install** button.
 
-This project is based on the work of the [Lua Language Server](https://github.com/LuaLS/lua-language-server) and its contributors. Below are some of the libraries and tools used:
+Alternatively, you can install it directly from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=imjoaosilva.luamtasa).
 
-- [bee.lua](https://github.com/actboy168/bee.lua)
-- [luamake](https://github.com/actboy168/luamake)
-- [LPegLabel](https://github.com/sqmedeiros/lpeglabel)
-- [LuaParser](https://github.com/LuaLS/LuaParser)
-- [ScreenToGif](https://github.com/NickeManarin/ScreenToGif)
-- [vscode-languageclient](https://github.com/microsoft/vscode-languageserver-node)
-- [lua.tmbundle](https://github.com/textmate/lua.tmbundle)
-- [EmmyLua](https://emmylua.github.io)
-- [lua-glob](https://github.com/LuaLS/lua-glob)
-- [utility](https://github.com/LuaLS/utility)
-- [vscode-lua-doc](https://github.com/actboy168/vscode-lua-doc)
-- [json.lua](https://github.com/actboy168/json.lua)
-- [EmmyLuaCodeStyle](https://github.com/CppCXY/EmmyLuaCodeStyle)
-- [inspect.lua](https://github.com/kikito/inspect.lua)
+Once installed, the extension will automatically activate when you open an MTA project, providing autocomplete, syntax checking, and support for MTA-specific functions and events.
 
+## Special thanks to:
+
+- **Multi Theft Auto Community** – for providing documentation, resources, and the platform that inspired this project.
+- **Lua Language Server Team** – for creating a solid foundation that made this extension possible.
+- **Tr4jado** – Intensive testing and help to implement some events.
