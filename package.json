@@ -3512,5 +3512,5 @@
 		"type": "git",
 		"url": "https://github.com/imjoaosilva/lua-language-server"
 	},
-	"version": "0.0.8"
+	"version": "0.0.9"
 }
