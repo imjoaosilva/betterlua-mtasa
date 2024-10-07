@@ -2874,16 +2874,6 @@
 							],
 							"type": "string"
 						},
-						"__client_definitions_addEventHandler": {
-							"default": "default",
-							"description": "%config.runtime.builtin.__client_definitions_addEventHandler",
-							"enum": [
-								"default",
-								"enable",
-								"disable"
-							],
-							"type": "string"
-						},
 						"__client_definitions": {
 							"default": "default",
 							"description": "%config.runtime.builtin.__client_definitions",
@@ -2964,9 +2954,29 @@
 							],
 							"type": "string"
 						},
+						"__server_definitions_addEventHandler": {
+							"default": "default",
+							"description": "%config.runtime.builtin.__server_definitions_addEventHandler",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"__client_definitions_addEventHandler": {
+							"default": "default",
+							"description": "%config.runtime.builtin.__client_definitions_addEventHandler",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
 						"__shared_definitions": {
 							"default": "default",
-							"description": "%config.runtime.builtin.__shared_definitions_addEventHandler",
+							"description": "%config.runtime.builtin.__shared_definitions",
 							"enum": [
 								"default",
 								"enable",
@@ -3512,5 +3522,5 @@
 		"type": "git",
 		"url": "https://github.com/imjoaosilva/lua-language-server"
 	},
-	"version": "0.1.0"
+	"version": "0.1.1"
 }
