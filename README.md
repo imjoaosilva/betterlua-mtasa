@@ -32,4 +32,4 @@ Once installed, the extension will automatically activate when you open an MTA p
 
 - **Multi Theft Auto Community** – for providing documentation, resources, and the platform that inspired this project.
 - **Lua Language Server Team** – for creating a solid foundation that made this extension possible.
-- **Tr4jado** – Intensive testing and help to implement some events.
+- **tr4jado** – Intensive testing and help to implement some events.
