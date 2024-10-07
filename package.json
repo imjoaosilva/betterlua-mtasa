@@ -3470,7 +3470,9 @@
 	"keywords": [
 		"Lua",
 		"IntelliSense",
-		"EmmyLua"
+		"EmmyLua",
+		"Mta",
+		"Mtasa"
 	],
 	"license": "MIT",
 	"main": "./client/out/src/extension",
