@@ -2874,9 +2874,9 @@
 							],
 							"type": "string"
 						},
-						"client": {
+						"__client_definitions_addEventHandler": {
 							"default": "default",
-							"description": "%config.runtime.builtin.client",
+							"description": "%config.runtime.builtin.__client_definitions_addEventHandler",
 							"enum": [
 								"default",
 								"enable",
@@ -2884,9 +2884,9 @@
 							],
 							"type": "string"
 						},
-						"deprecated": {
+						"__client_definitions": {
 							"default": "default",
-							"description": "%config.runtime.builtin.deprecated",
+							"description": "%config.runtime.builtin.__client_definitions",
 							"enum": [
 								"default",
 								"enable",
@@ -2894,9 +2894,9 @@
 							],
 							"type": "string"
 						},
-						"dx": {
+						"__client_ped_definitions": {
 							"default": "default",
-							"description": "%config.runtime.builtin.dx",
+							"description": "%config.runtime.builtin.__client_ped_definitions",
 							"enum": [
 								"default",
 								"enable",
@@ -2904,9 +2904,9 @@
 							],
 							"type": "string"
 						},
-						"engine": {
+						"__dx_definitions": {
 							"default": "default",
-							"description": "%config.runtime.builtin.engine",
+							"description": "%config.runtime.builtin.__dx_definitions",
 							"enum": [
 								"default",
 								"enable",
@@ -2914,9 +2914,9 @@
 							],
 							"type": "string"
 						},
-						"gui": {
+						"__engine_definitions": {
 							"default": "default",
-							"description": "%config.runtime.builtin.gui",
+							"description": "%config.runtime.builtin.__engine_definitions",
 							"enum": [
 								"default",
 								"enable",
@@ -2924,9 +2924,9 @@
 							],
 							"type": "string"
 						},
-						"ped": {
+						"__extra_types": {
 							"default": "default",
-							"description": "%config.runtime.builtin.ped",
+							"description": "%config.runtime.builtin.__extra_types",
 							"enum": [
 								"default",
 								"enable",
@@ -2934,9 +2934,9 @@
 							],
 							"type": "string"
 						},
-						"server": {
+						"__gui_definitions": {
 							"default": "default",
-							"description": "%config.runtime.builtin.server",
+							"description": "%config.runtime.builtin.__gui_definitions",
 							"enum": [
 								"default",
 								"enable",
@@ -2944,9 +2944,9 @@
 							],
 							"type": "string"
 						},
-						"shared": {
+						"__server_definitions": {
 							"default": "default",
-							"description": "%config.runtime.builtin.shared",
+							"description": "%config.runtime.builtin.__server_definitions",
 							"enum": [
 								"default",
 								"enable",
@@ -2954,9 +2954,9 @@
 							],
 							"type": "string"
 						},
-						"vehicle": {
+						"__shared_definitions_addEventHandler": {
 							"default": "default",
-							"description": "%config.runtime.builtin.vehicle",
+							"description": "%config.runtime.builtin.__shared_definitions_addEventHandler",
 							"enum": [
 								"default",
 								"enable",
@@ -2964,9 +2964,39 @@
 							],
 							"type": "string"
 						},
-						"typesmtasa": {
+						"__shared_definitions": {
 							"default": "default",
-							"description": "%config.runtime.builtin.typesmtasa",
+							"description": "%config.runtime.builtin.__shared_definitions_addEventHandler",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"__client_type_definitions": {
+							"default": "default",
+							"description": "%config.runtime.builtin.__client_type_definitions",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"__server_type_definitions": {
+							"default": "default",
+							"description": "%config.runtime.builtin.__server_type_definitions",
+							"enum": [
+								"default",
+								"enable",
+								"disable"
+							],
+							"type": "string"
+						},
+						"__shared_type_definitions": {
+							"default": "default",
+							"description": "%config.runtime.builtin.__shared_type_definitions",
 							"enum": [
 								"default",
 								"enable",
@@ -3482,5 +3512,5 @@
 		"type": "git",
 		"url": "https://github.com/imjoaosilva/lua-language-server"
 	},
-	"version": "0.0.7"
+	"version": "0.0.8"
 }
